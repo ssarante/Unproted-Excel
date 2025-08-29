@@ -33,5 +33,11 @@ No requiere instalar paquetes externos.
 
 1. Clonar el repositorio:
    ```bash
-   git clone https://github.com/tuusuario/excel-sheet-unlocker.git
-   cd excel-sheet-unlocker
+   git clone https://github.com/ssarante/Unproted-Excel.git
+   cd Unproted-Excel
+
+   Copiar tu archivo protegido (book1.xlsm o book1.xlsx) a la carpeta del proyecto.
+
+Ejecutar el script:
+python unlock_excel.py book1.xlsm book1_unprotected.xlsm
+
